@@ -1,0 +1,24 @@
+{
+  "name": "salary-converter",
+  "version": "1.0.0",
+  "description": "Conversor de salario de ARS a IMC",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx http-server .",
+    "audit": "npm audit",
+    "audit-fix": "npm audit fix"
+  },
+  "keywords": [
+    "salary",
+    "converter",
+    "ars",
+    "usd"
+  ],
+  "author": "mateoromerocontreras",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "serve": "^14.2.3"
+  }
+}
